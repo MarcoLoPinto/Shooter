@@ -1,0 +1,38 @@
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	
+    <title>NeonJS</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="/client/viewportSetup.css">
+	<link rel="stylesheet" type="text/css" href="/client/activityStyle.css">
+	<script src="/client/globals.js"></script>
+	<script src="/client/initializer.js"></script>
+	<script src="/client/FitViewport.js"></script>
+	<script src="/client/FillViewport.js"></script>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	
+	<style type="text/css">
+		input:focus {
+			outline: none !important;
+			border-color: rgba(0, 0, 0, 0.6);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+		}
+		
+	</style>
+	
+  </head>
+  <body>
+	<canvas id="ctx" width="100%" height="100%"></canvas>
+	
+	<div id = "initHolder" class="flex-centered">
+		<div class="infotext">Loading...</div>
+	</div>
+	
+	<script src="/client/clientActions.js"></script>
+  </body>
+</html>

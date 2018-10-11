@@ -1,0 +1,36 @@
+body{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	
+	pointer-events: all;
+	cursor: crosshair;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+	overflow: hidden;
+}
+canvas {	
+	
+	border: 0px;
+	padding: 0px;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:auto;
+
+	image-rendering: optimizeSpeed;             
+	image-rendering: -moz-crisp-edges;          
+	image-rendering: -webkit-optimize-contrast; 
+	image-rendering: -o-crisp-edges;            
+	image-rendering: pixelated;                 
+	-ms-interpolation-mode: nearest-neighbor;   
+}

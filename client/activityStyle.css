@@ -1,0 +1,29 @@
+@font-face {
+   font-family: 'fontakl';
+   src: url(font_name.eot);
+   src: local('fontakl.ttf'), url('fontakl.ttf') format('truetype');
+}
+
+#initHolder{
+	font-family: fontakl, Arial;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	
+	text-align: center;
+	white-space: nowrap;
+}
+
+.flex-centered{
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center; 
+}
+
+.infotext{
+	font-size: 6vh;
+	color: white;
+}
